@@ -1,0 +1,29 @@
+{
+  "examples": [
+    {
+      "title": "样例1",
+      "sample_id": "10457",
+      "file": "inputs/example_1.png",
+      "source_split": "val",
+      "original_sha256": "e1ec0e831d83e54e37d4e079699f5a4ee664ae6cb1e2f3a7cdd3e46bb3270576"
+    },
+    {
+      "title": "样例2",
+      "sample_id": "11258",
+      "file": "inputs/example_2.png",
+      "source_split": "val",
+      "original_sha256": "245bd05d2bd99a03d72df2d65dae34bd3358420dddd5447f00915d083adafd3c"
+    },
+    {
+      "title": "样例3",
+      "sample_id": "10401",
+      "file": "inputs/example_3.png",
+      "source_split": "val",
+      "original_sha256": "d7c1a316d8063ff214ca09e7601a47a40ca58522488b0f3f0a63d88d26d5e284"
+    }
+  ],
+  "note": "User-selected validation examples; not a random benchmark sample.",
+  "dataset": "KolektorSDD2",
+  "dataset_url": "https://www.vicos.si/resources/kolektorsdd2/",
+  "dataset_license": "CC BY-NC-SA 4.0"
+}

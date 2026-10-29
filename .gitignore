@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+outputs/
+.cache/
+.venv/
+*.pt
+*.pth
+*.whl
+*.zip

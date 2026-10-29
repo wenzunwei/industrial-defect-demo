@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "opset": 17,
+  "precision": "float32",
+  "detection": {
+    "file": "detection.onnx",
+    "onnx_sha256": "592144aaee69900d6370e45fdfdefa3bdabf875081ea6e19c52a033d3092c5ed",
+    "source_checkpoint": "runs/detection/yolo11n_baseline/weights/best.pt",
+    "source_sha256": "3f4568b06cb797416a27574d10e326a13f8907b17c5b8d180e54a901dcc68b79",
+    "architecture": "Ultralytics YOLO11n",
+    "input_name": "images",
+    "output_name": "output0",
+    "input_size": [
+      640,
+      640
+    ],
+    "dynamic_spatial": true,
+    "stride": 32,
+    "confidence": 0.25,
+    "iou": 0.7,
+    "max_det": 100,
+    "classes": [
+      "defect"
+    ],
+    "preprocessing": "RGB / 255; keep aspect ratio; auto stride padding 114",
+    "output_format": "[1,5,N]: center_x, center_y, width, height, class_score; external NMS"
+  },
+  "segmentation": {
+    "file": "segmentation.onnx",
+    "onnx_sha256": "0d6d0f434eba3ed4a15423f162022bbfec5c54c12e6c8663217f977aa52a96be",
+    "source_checkpoint": "runs/segmentation/unet_resnet18_baseline/weights/best.pt",
+    "source_sha256": "bc552deba53efc152b5cb33e7368d95d4df09891b131e2b6d8db8b64c6d22587",
+    "architecture": "SMP U-Net + ResNet18",
+    "checkpoint_epoch": 37,
+    "input_name": "images",
+    "output_name": "logits",
+    "input_size": [
+      640,
+      256
+    ],
+    "dynamic_spatial": false,
+    "threshold": 0.5,
+    "preprocessing": "RGB / 255; ImageNet mean/std; keep aspect ratio; normalized-zero padding",
+    "output_format": "[1,1,H,W] logits; sigmoid, remove padding, bilinear restore, threshold"
+  },
+  "export_packages": {
+    "torch": "2.6.0+cu124",
+    "ultralytics": "8.3.72",
+    "segmentation-models-pytorch": "0.5.0",
+    "onnx": "1.17.0",
+    "onnxruntime": "1.20.1"
+  },
+  "note": "FP32 export only; run scripts/verify_onnx.py to check numerical and output agreement."
+}
