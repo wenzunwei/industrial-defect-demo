@@ -1,54 +1,57 @@
 {
-  "images": 466,
-  "instances": 53,
+  "images": 1004,
+  "instances": 119,
   "box": {
-    "mAP50_95": 0.3662504941042094,
-    "mAP50": 0.7228266649070003,
-    "mAP75": 0.3200257233374339,
-    "AR100": 0.4622641509433961
+    "mAP50_95": 0.42011337938147314,
+    "mAP50": 0.8048047043419424,
+    "mAP75": 0.3803816816833734,
+    "AR100": 0.5403361344537816
   },
   "mask": {
-    "mAP50_95": 0.30212392087973183,
-    "mAP50": 0.6719001905130184,
-    "mAP75": 0.25514623556617416,
-    "AR100": 0.390566037735849
+    "mAP50_95": 0.3588668261602892,
+    "mAP50": 0.7946829778229068,
+    "mAP75": 0.2699727276124435,
+    "AR100": 0.44117647058823534
   },
   "foreground": {
-    "foreground_dice_micro": 0.7627453563430379,
-    "foreground_iou_micro": 0.6164821124361158,
-    "positive_dice_macro": 0.6271487164479248,
-    "positive_iou_macro": 0.529763223714048,
-    "normal_false_positive_image_rate": 0.014388489208633094,
-    "positive_images": 49,
-    "normal_images": 417,
-    "normal_false_positive_images": 6,
-    "tp_pixels": 104220,
-    "fp_pixels": 15689,
-    "fn_pixels": 49147
+    "foreground_dice_micro": 0.8319394802436317,
+    "foreground_iou_micro": 0.7122400476450963,
+    "positive_dice_macro": 0.7155147681748543,
+    "positive_iou_macro": 0.6164569161413587,
+    "normal_false_positive_image_rate": 0.016778523489932886,
+    "positive_images": 110,
+    "normal_images": 894,
+    "normal_false_positive_images": 15,
+    "tp_pixels": 381495,
+    "fp_pixels": 49166,
+    "fn_pixels": 104966
   },
   "operating_point": {
     "score_threshold": 0.25,
     "mask_threshold": 0.5,
     "box_iou_threshold": 0.5,
-    "box_precision": 0.6415094339622641,
-    "box_recall": 0.6415094339622641,
-    "tp": 34,
-    "fp": 19,
-    "fn": 19
+    "box_precision": 0.6575342465753424,
+    "box_recall": 0.8067226890756303,
+    "tp": 96,
+    "fp": 50,
+    "fn": 23
   },
-  "joint_score": 0.5285412601077885,
+  "joint_score": 0.5911927828433111,
   "rpn_proposal_recall": {
-    "at100_iou50": 0.9245283018867925,
-    "at100_iou70": 0.8113207547169812,
-    "at1000_iou50": 0.9245283018867925,
-    "at1000_iou70": 0.8113207547169812
+    "at100_iou50": 0.9495798319327731,
+    "at100_iou70": 0.8487394957983193,
+    "at1000_iou50": 0.9831932773109243,
+    "at1000_iou70": 0.8823529411764706
   },
   "ap_protocol": "pycocotools COCO, maxDets=100, mask AP pixel threshold=0.5; full original resolution",
-  "split": "val",
+  "split": "test",
   "subset": false,
   "checkpoint": {
     "epoch": 6,
     "mode": "formal",
     "weights_sha256": "7bbb828206c9dc4fcc42d204e1500c6edac84e6384274f1062dc6cc6be4f9684"
-  }
+  },
+  "elapsed_seconds": 82.29699999990407,
+  "manifest_sha256": "37d74d272128560e0fea41ea40d227c041686dff77a80857cf48eef421f9d53a",
+  "score_floor": 0.001
 }

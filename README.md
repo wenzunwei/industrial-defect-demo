@@ -22,7 +22,7 @@
   <img src="docs/assets/learning_rate.png" width="49%" alt="学习率">
 </p>
 
-<p align="center"><sub>检测 mAP50：72.28%　分割 Dice：76.27%</sub></p>
+<p align="center"><sub>检测 mAP50：80.48%　分割 Dice：83.19%</sub></p>
 
 ## 快速运行
 
