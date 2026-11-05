@@ -159,6 +159,7 @@ section+section{margin-top:54px}h2{display:flex;align-items:center;gap:18px;font
 .results{display:grid;gap:26px}.card{margin:0;padding:12px;background:white;border:1px solid #e1e7e9;border-radius:18px;overflow:hidden;box-shadow:0 7px 22px #253d4a04}
 .card img{display:block;width:100%;height:auto;border-radius:8px}.charts{display:grid;grid-template-columns:1fr 1fr;gap:22px}.chart{margin:0;padding:0;border:0;border-radius:0}.chart img{display:block;width:100%;height:auto}
 @media(max-width:700px){main{width:calc(100% - 24px);padding-top:30px}header{gap:12px;margin-bottom:32px}.mark{width:38px;height:38px;border-radius:11px}.card{padding:3px;border-radius:12px}.results{gap:16px}.charts{grid-template-columns:1fr;gap:15px}section+section{margin-top:34px}h2{font-size:17px;margin-bottom:17px}}
+.metrics{font-size:13px;color:#667780;text-align:center;margin:16px 0 0}
 </style></head><body><main><header><div class="mark" aria-hidden="true"><svg width="25" height="25" viewBox="0 0 24 24" fill="none"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M8 21H3v-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m8 13 3-4 3 2 2-1v6H8v-3Z" fill="currentColor" opacity=".75"/></svg></div><h1>工业表面缺陷检测与分割</h1></header>
 <section><h2>效果展示</h2><div class="results">
 <figure class="card"><img src="assets/result_a.png" alt="原图、目标检测与缺陷分割" width="1080" height="600"></figure>
@@ -167,7 +168,13 @@ section+section{margin-top:54px}h2{display:flex;align-items:center;gap:18px;font
 </div></section><section><h2>训练过程</h2><div class="charts">
 <figure class="chart"><img src="assets/training_loss.png" alt="总损失" width="1615" height="893" loading="lazy"></figure>
 <figure class="chart"><img src="assets/learning_rate.png" alt="学习率" width="1615" height="893" loading="lazy"></figure>
-</div></section></main></body></html>'''
+</div><p class="metrics">__RESULT_METRICS__</p></section></main></body></html>'''
+    metrics = read_json(WORKSPACE/'experiments/m1/metrics.json')
+    metadata = read_json(WORKSPACE/'models/manifest.json')
+    if metrics['checkpoint']['weights_sha256'] != metadata['source_sha256']:
+        raise ValueError('Presentation metrics must match the deployed checkpoint')
+    metrics_text = f"检测 mAP50：{metrics['box']['mAP50']:.2%}　分割 Dice：{metrics['foreground']['foreground_dice_micro']:.2%}"
+    content = content.replace('__RESULT_METRICS__', metrics_text)
     (output/'index.html').write_text(content, encoding='utf-8')
     (output/'README_展示片段.md').write_text('''## 效果展示
 
@@ -183,7 +190,9 @@ section+section{margin-top:54px}h2{display:flex;align-items:center;gap:18px;font
   <img src="assets/training_loss.png" width="49%" alt="损失">
   <img src="assets/learning_rate.png" width="49%" alt="学习率">
 </p>
-''', encoding='utf-8')
+
+<p align="center"><sub>__RESULT_METRICS__</sub></p>
+'''.replace('__RESULT_METRICS__', metrics_text), encoding='utf-8')
 
 
 def overview(output, cards):

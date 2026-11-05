@@ -22,6 +22,8 @@
   <img src="docs/assets/learning_rate.png" width="49%" alt="学习率">
 </p>
 
+<p align="center"><sub>检测 mAP50：72.28%　分割 Dice：76.27%</sub></p>
+
 ## 快速运行
 
 模型使用 Git LFS 管理；通过 Git 克隆时请确保已拉取 LFS 文件。使用 Python 3.11，在项目根目录执行：
