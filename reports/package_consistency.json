@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "provider": "CPUExecutionProvider",
+  "case_count": 7,
+  "cases": [
+    {
+      "name": "example_1.png",
+      "purpose": "input",
+      "detections": 1,
+      "box_max_abs_error_px": 1.1920928955078125e-06,
+      "score_max_abs_error": 0.0,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    },
+    {
+      "name": "example_2.png",
+      "purpose": "input",
+      "detections": 1,
+      "box_max_abs_error_px": 3.0517578125e-05,
+      "score_max_abs_error": 0.0,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    },
+    {
+      "name": "example_3.png",
+      "purpose": "input",
+      "detections": 1,
+      "box_max_abs_error_px": 0.0001068115234375,
+      "score_max_abs_error": 1.1920928955078125e-07,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    },
+    {
+      "name": "black",
+      "purpose": "probe",
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    },
+    {
+      "name": "landscape",
+      "purpose": "probe",
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    },
+    {
+      "name": "square",
+      "purpose": "probe",
+      "detections": 1,
+      "box_max_abs_error_px": 0.0001678466796875,
+      "score_max_abs_error": 1.1920928955078125e-07,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    },
+    {
+      "name": "stacked",
+      "purpose": "probe",
+      "detections": 2,
+      "box_max_abs_error_px": 0.00011444091796875,
+      "score_max_abs_error": 3.212690353393555e-05,
+      "mask_binary_iou": 1.0,
+      "mask_pixel_agreement": 1.0,
+      "status": "passed"
+    }
+  ],
+  "onnx_sha256": "79721642a4dd933c7eb6c99aa309c26edc845abc0d85ab81f8bbe751963de878",
+  "source_sha256": "7bbb828206c9dc4fcc42d204e1500c6edac84e6384274f1062dc6cc6be4f9684",
+  "empty_output_cases": 2,
+  "multi_detection_cases": 1,
+  "test_evaluated": false
+}

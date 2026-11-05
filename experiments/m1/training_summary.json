@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "mode": "formal",
+  "run_dir": "runs/maskrcnn_m1",
+  "epochs_completed": 21,
+  "stop_reason": "early_stopping",
+  "best": {
+    "box": 0.3978941392425062,
+    "dice": 0.7627453563430379,
+    "joint": 0.5285412601077885
+  },
+  "optimizer_updates": 4914,
+  "elapsed_seconds_this_invocation": 4221.344000000041,
+  "peak_gpu_allocated_mib": 2912.5712890625,
+  "evaluation_split": "val",
+  "official_test_evaluated": false,
+  "note": "Validation selection only; test is never evaluated automatically."
+}

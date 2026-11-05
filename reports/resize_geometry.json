@@ -1,0 +1,5751 @@
+{
+  "status": "passed",
+  "onnx_sha256": "79721642a4dd933c7eb6c99aa309c26edc845abc0d85ab81f8bbe751963de878",
+  "geometry_count": 522,
+  "scope": "All distinct train/val H/W plus landscape/square/black probe sizes; no test images or annotations read.",
+  "note": "Shape-only check of the actual exported first Resize, not full model predictions.",
+  "cases": [
+    {
+      "input_hw": [
+        602,
+        229
+      ],
+      "resized_hw": [
+        1009,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        603,
+        227
+      ],
+      "resized_hw": [
+        1020,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        604,
+        229
+      ],
+      "resized_hw": [
+        1012,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        606,
+        229
+      ],
+      "resized_hw": [
+        1016,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        606,
+        230
+      ],
+      "resized_hw": [
+        1011,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        606,
+        232
+      ],
+      "resized_hw": [
+        1003,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        607,
+        228
+      ],
+      "resized_hw": [
+        1022,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        607,
+        229
+      ],
+      "resized_hw": [
+        1017,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        608,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        609,
+        230
+      ],
+      "resized_hw": [
+        1016,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        610,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        610,
+        229
+      ],
+      "resized_hw": [
+        1022,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        612,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        612,
+        232
+      ],
+      "resized_hw": [
+        1012,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        613,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        613,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        613,
+        230
+      ],
+      "resized_hw": [
+        1023,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        614,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        614,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        614,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        383
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        615,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        616,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        616,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        617,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        617,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        618,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        618,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        619,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        619,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        619,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        619,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        619,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        620,
+        217
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        620,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        620,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        620,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        621,
+        210
+      ],
+      "resized_hw": [
+        1024,
+        346
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        621,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        621,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        621,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        621,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        622,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        622,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        622,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        622,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        622,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        623,
+        219
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        623,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        623,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        623,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        623,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        623,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        624,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        624,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        624,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        624,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        624,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        624,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        625,
+        235
+      ],
+      "resized_hw": [
+        1021,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        353
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        626,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        184
+      ],
+      "resized_hw": [
+        1024,
+        300
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        217
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        627,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        209
+      ],
+      "resized_hw": [
+        1024,
+        340
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        383
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        628,
+        238
+      ],
+      "resized_hw": [
+        1013,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        186
+      ],
+      "resized_hw": [
+        1024,
+        302
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        629,
+        236
+      ],
+      "resized_hw": [
+        1023,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        204
+      ],
+      "resized_hw": [
+        1024,
+        331
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        205
+      ],
+      "resized_hw": [
+        1024,
+        333
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        214
+      ],
+      "resized_hw": [
+        1024,
+        347
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        217
+      ],
+      "resized_hw": [
+        1024,
+        352
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        218
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        630,
+        237
+      ],
+      "resized_hw": [
+        1020,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        199
+      ],
+      "resized_hw": [
+        1024,
+        322
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        210
+      ],
+      "resized_hw": [
+        1024,
+        340
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        350
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        217
+      ],
+      "resized_hw": [
+        1024,
+        352
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        631,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        205
+      ],
+      "resized_hw": [
+        1024,
+        332
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        206
+      ],
+      "resized_hw": [
+        1024,
+        333
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        349
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        632,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        207
+      ],
+      "resized_hw": [
+        1024,
+        334
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        349
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        219
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        357
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        633,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        383
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        199
+      ],
+      "resized_hw": [
+        1024,
+        321
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        205
+      ],
+      "resized_hw": [
+        1024,
+        331
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        206
+      ],
+      "resized_hw": [
+        1024,
+        332
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        207
+      ],
+      "resized_hw": [
+        1024,
+        334
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        210
+      ],
+      "resized_hw": [
+        1024,
+        339
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        211
+      ],
+      "resized_hw": [
+        1024,
+        340
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        212
+      ],
+      "resized_hw": [
+        1024,
+        342
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        347
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        348
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        355
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        634,
+        238
+      ],
+      "resized_hw": [
+        1022,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        202
+      ],
+      "resized_hw": [
+        1024,
+        325
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        205
+      ],
+      "resized_hw": [
+        1024,
+        330
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        207
+      ],
+      "resized_hw": [
+        1024,
+        333
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        210
+      ],
+      "resized_hw": [
+        1024,
+        338
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        346
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        218
+      ],
+      "resized_hw": [
+        1024,
+        351
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        357
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        635,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        206
+      ],
+      "resized_hw": [
+        1024,
+        331
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        207
+      ],
+      "resized_hw": [
+        1024,
+        333
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        346
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        219
+      ],
+      "resized_hw": [
+        1024,
+        352
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        357
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        636,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        196
+      ],
+      "resized_hw": [
+        1024,
+        315
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        209
+      ],
+      "resized_hw": [
+        1024,
+        335
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        637,
+        240
+      ],
+      "resized_hw": [
+        1019,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        208
+      ],
+      "resized_hw": [
+        1024,
+        333
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        210
+      ],
+      "resized_hw": [
+        1024,
+        337
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        211
+      ],
+      "resized_hw": [
+        1024,
+        338
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        214
+      ],
+      "resized_hw": [
+        1024,
+        343
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        353
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        638,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        214
+      ],
+      "resized_hw": [
+        1024,
+        342
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        344
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        238
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        639,
+        239
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        200
+      ],
+      "resized_hw": [
+        1024,
+        320
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        202
+      ],
+      "resized_hw": [
+        1024,
+        323
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        206
+      ],
+      "resized_hw": [
+        1024,
+        329
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        218
+      ],
+      "resized_hw": [
+        1024,
+        348
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        219
+      ],
+      "resized_hw": [
+        1024,
+        350
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        239
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        640,
+        240
+      ],
+      "resized_hw": [
+        1024,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        201
+      ],
+      "resized_hw": [
+        1024,
+        321
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        205
+      ],
+      "resized_hw": [
+        1024,
+        327
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        206
+      ],
+      "resized_hw": [
+        1024,
+        329
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        208
+      ],
+      "resized_hw": [
+        1024,
+        332
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        343
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        345
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        224
+      ],
+      "resized_hw": [
+        1024,
+        357
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        238
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        641,
+        240
+      ],
+      "resized_hw": [
+        1024,
+        383
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        206
+      ],
+      "resized_hw": [
+        1024,
+        328
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        209
+      ],
+      "resized_hw": [
+        1024,
+        333
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        213
+      ],
+      "resized_hw": [
+        1024,
+        339
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        355
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        238
+      ],
+      "resized_hw": [
+        1024,
+        379
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        239
+      ],
+      "resized_hw": [
+        1024,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        642,
+        240
+      ],
+      "resized_hw": [
+        1024,
+        382
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        212
+      ],
+      "resized_hw": [
+        1024,
+        337
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        214
+      ],
+      "resized_hw": [
+        1024,
+        340
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        218
+      ],
+      "resized_hw": [
+        1024,
+        347
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        220
+      ],
+      "resized_hw": [
+        1024,
+        350
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        643,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        377
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        211
+      ],
+      "resized_hw": [
+        1023,
+        335
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        212
+      ],
+      "resized_hw": [
+        1023,
+        337
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        213
+      ],
+      "resized_hw": [
+        1023,
+        338
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        218
+      ],
+      "resized_hw": [
+        1023,
+        346
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        224
+      ],
+      "resized_hw": [
+        1023,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        226
+      ],
+      "resized_hw": [
+        1023,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        227
+      ],
+      "resized_hw": [
+        1023,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        228
+      ],
+      "resized_hw": [
+        1023,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        229
+      ],
+      "resized_hw": [
+        1023,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        230
+      ],
+      "resized_hw": [
+        1023,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        231
+      ],
+      "resized_hw": [
+        1023,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        232
+      ],
+      "resized_hw": [
+        1023,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        233
+      ],
+      "resized_hw": [
+        1023,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        234
+      ],
+      "resized_hw": [
+        1023,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        235
+      ],
+      "resized_hw": [
+        1023,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        236
+      ],
+      "resized_hw": [
+        1023,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        237
+      ],
+      "resized_hw": [
+        1023,
+        376
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        238
+      ],
+      "resized_hw": [
+        1023,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        239
+      ],
+      "resized_hw": [
+        1023,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        644,
+        240
+      ],
+      "resized_hw": [
+        1023,
+        381
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        214
+      ],
+      "resized_hw": [
+        1024,
+        339
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        341
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        645,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        192
+      ],
+      "resized_hw": [
+        1024,
+        304
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        221
+      ],
+      "resized_hw": [
+        1024,
+        350
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        646,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        218
+      ],
+      "resized_hw": [
+        1024,
+        345
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        375
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        647,
+        239
+      ],
+      "resized_hw": [
+        1024,
+        378
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        212
+      ],
+      "resized_hw": [
+        1024,
+        335
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        215
+      ],
+      "resized_hw": [
+        1024,
+        339
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        218
+      ],
+      "resized_hw": [
+        1024,
+        344
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        223
+      ],
+      "resized_hw": [
+        1024,
+        352
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        369
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        648,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        208
+      ],
+      "resized_hw": [
+        1024,
+        328
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        214
+      ],
+      "resized_hw": [
+        1024,
+        337
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        222
+      ],
+      "resized_hw": [
+        1024,
+        350
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        362
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        235
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        372
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        649,
+        241
+      ],
+      "resized_hw": [
+        1024,
+        380
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        211
+      ],
+      "resized_hw": [
+        1024,
+        332
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        225
+      ],
+      "resized_hw": [
+        1024,
+        354
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        227
+      ],
+      "resized_hw": [
+        1024,
+        357
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        367
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        650,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        373
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        216
+      ],
+      "resized_hw": [
+        1024,
+        339
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        231
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        651,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        368
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        652,
+        228
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        652,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        359
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        652,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        361
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        652,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        364
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        652,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        652,
+        236
+      ],
+      "resized_hw": [
+        1024,
+        370
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        213
+      ],
+      "resized_hw": [
+        1024,
+        334
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        360
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        232
+      ],
+      "resized_hw": [
+        1024,
+        363
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        233
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        366
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        237
+      ],
+      "resized_hw": [
+        1024,
+        371
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        653,
+        239
+      ],
+      "resized_hw": [
+        1024,
+        374
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        655,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        353
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        655,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        358
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        655,
+        234
+      ],
+      "resized_hw": [
+        1024,
+        365
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        657,
+        226
+      ],
+      "resized_hw": [
+        1024,
+        352
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        657,
+        229
+      ],
+      "resized_hw": [
+        1024,
+        356
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        658,
+        230
+      ],
+      "resized_hw": [
+        1024,
+        357
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        660,
+        213
+      ],
+      "resized_hw": [
+        1024,
+        330
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        232,
+        645
+      ],
+      "resized_hw": [
+        368,
+        1024
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        512,
+        512
+      ],
+      "resized_hw": [
+        384,
+        384
+      ],
+      "status": "passed"
+    },
+    {
+      "input_hw": [
+        480,
+        192
+      ],
+      "resized_hw": [
+        960,
+        384
+      ],
+      "status": "passed"
+    }
+  ]
+}

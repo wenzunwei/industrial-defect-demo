@@ -2,36 +2,54 @@
 
 ## 功能
 
-- **缺陷检测**：定位表面缺陷，输出检测框和置信度。
-- **像素级分割**：提取缺陷区域，输出原图尺寸的二值掩膜。
-- **结果可视化**：保存检测结果、分割叠加图及检测与分割的综合结果。
-- **批量推理**：支持单图或文件夹输入，可独立选择检测、分割或同时运行。
+- **缺陷检测与分割**：共享主干网络，同时输出缺陷框与像素级掩膜。
+- **可视化与批量推理**：支持单张图片或文件夹输入，保存框、掩膜和叠加结果。
+- **模型训练与评估**：包含数据处理、联合训练、断点恢复及检测与分割评价。
+- **ONNX 部署**：提供独立推理接口和模型导出、一致性检查脚本。
 
 ## 效果展示
 
-以下三组样例均由本项目的 ONNX 模型实际推理生成，依次展示原图、目标检测和分割结果。
+![原图、目标检测与缺陷分割](docs/assets/result_a.png)
 
-![样例1：原图、目标检测与分割](examples/previews/example_1.jpg)
+![原图、目标检测与缺陷分割](docs/assets/result_b.png)
 
-![样例2：原图、目标检测与分割](examples/previews/example_2.jpg)
+![原图、目标检测与缺陷分割](docs/assets/result_c.png)
 
-![样例3：原图、目标检测与分割](examples/previews/example_3.jpg)
+## 损失与学习率
+
+| 损失 | 学习率 |
+| --- | --- |
+| ![总损失](docs/assets/training_loss.png) | ![学习率](docs/assets/learning_rate.png) |
 
 ## 快速运行
 
-进入本目录，使用 Python 3.11 安装依赖并运行：
+模型使用 Git LFS 管理；通过 Git 克隆时请确保已拉取 LFS 文件。使用 Python 3.11，在项目根目录执行：
 
 ```bash
 pip install -r requirements.txt
-python infer.py --source examples/inputs --output outputs/my_run --mode both
+python infer.py --input examples/inputs --output outputs/demo
 ```
 
-默认使用 CPU，推理端仅依赖 **NumPy、OpenCV、ONNX Runtime**。
-`--mode` 可选 `detect`、`segment`、`both`。
-结果保存至指定目录，每次运行使用新的输出目录。
+默认使用 CPU。推理端仅依赖 NumPy、OpenCV 和 ONNX Runtime；单个 ONNX 模型同时完成检测与分割。
 
-模型文件位于 `models/`：`detection.onnx`、`segmentation.onnx` 和 `manifest.json`。
+每张图片保存检测框与分数 JSON、二值掩膜 PNG、三联预览图，批量结果汇总到 `summary.json`。输出目录需使用新名称。
+
+## 工程结构
+
+```text
+configs/          M0、M1 训练配置
+jointcv/          数据处理、共享主干模型、训练与评估
+inference/        独立 ONNX Runtime 推理
+scripts/          数据准备、导出、验证和展示生成
+tests/            数据、指标与训练控制测试
+examples/inputs/  三张样例原图
+models/           ONNX 权重与模型接口描述
+experiments/m1/   训练参数、日志和评估结果
+docs/             展示页面和图片
+run.py            训练、评估与 PyTorch 推理入口
+infer.py          ONNX 推理入口
+```
 
 ## 技术栈
 
-Python · PyTorch · OpenCV · ONNX · ONNX Runtime
+Python · PyTorch · TorchVision · OpenCV · ONNX · ONNX Runtime

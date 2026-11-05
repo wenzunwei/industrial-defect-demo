@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "experiment": "M1",
+  "data": {
+    "manifest": "data/processed/ksdd2/manifest.json",
+    "manifest_sha256": "37d74d272128560e0fea41ea40d227c041686dff77a80857cf48eef421f9d53a"
+  },
+  "model": {
+    "name": "maskrcnn_resnet50_fpn_v2",
+    "weights": "weights/maskrcnn_resnet50_fpn_v2_coco-73cbd019.pth",
+    "trainable_backbone_layers": 3,
+    "min_size": 384,
+    "max_size": 1024,
+    "mask_roi_size": 14
+  },
+  "train": {
+    "seed": 42,
+    "device": "cuda:0",
+    "cpu_threads": 2,
+    "workers": 0,
+    "batch": 4,
+    "accumulate": 2,
+    "amp": true,
+    "amp_init_scale": 1024.0,
+    "epochs": 60,
+    "minimum_epochs": 20,
+    "patience": 15,
+    "lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.0001,
+    "warmup_updates": 500,
+    "clip_grad_norm": 1.0,
+    "positive_fraction": 0.5,
+    "augmentation": {
+      "horizontal_flip": 0.5,
+      "brightness": 0.1,
+      "contrast": 0.1
+    }
+  },
+  "evaluation": {
+    "batch": 1,
+    "score_floor": 0.001,
+    "score_threshold": 0.25,
+    "mask_threshold": 0.5,
+    "nms_iou": 0.5,
+    "max_detections": 100,
+    "score_grid": [
+      0.05,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "mask_grid": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "max_normal_fp_rate": 0.02
+  }
+}

@@ -5,21 +5,66 @@
       "sample_id": "10457",
       "file": "inputs/example_1.png",
       "source_split": "val",
-      "original_sha256": "e1ec0e831d83e54e37d4e079699f5a4ee664ae6cb1e2f3a7cdd3e46bb3270576"
+      "original_sha256": "e1ec0e831d83e54e37d4e079699f5a4ee664ae6cb1e2f3a7cdd3e46bb3270576",
+      "expected_prediction": {
+        "mask_sha256": "c20aeae8d3616dfc7f9bb0b4b59d9569b75d2d8c12e6740beee2bd72996ceab0",
+        "boxes_xyxy": [
+          [
+            0.8008864521980286,
+            407.1742248535156,
+            23.637643814086914,
+            439.1942138671875
+          ]
+        ],
+        "scores": [
+          0.9948957562446594
+        ],
+        "foreground_pixels": 497
+      }
     },
     {
       "title": "样例2",
       "sample_id": "11258",
       "file": "inputs/example_2.png",
       "source_split": "val",
-      "original_sha256": "245bd05d2bd99a03d72df2d65dae34bd3358420dddd5447f00915d083adafd3c"
+      "original_sha256": "245bd05d2bd99a03d72df2d65dae34bd3358420dddd5447f00915d083adafd3c",
+      "expected_prediction": {
+        "mask_sha256": "489c1e7ba65e2b7806e85750a5c50947a46b796433d5d56cd8d7ee0df0620ef4",
+        "boxes_xyxy": [
+          [
+            141.48045349121094,
+            314.8355407714844,
+            224.68722534179688,
+            333.62713623046875
+          ]
+        ],
+        "scores": [
+          0.9966868758201599
+        ],
+        "foreground_pixels": 802
+      }
     },
     {
       "title": "样例3",
       "sample_id": "10401",
       "file": "inputs/example_3.png",
       "source_split": "val",
-      "original_sha256": "d7c1a316d8063ff214ca09e7601a47a40ca58522488b0f3f0a63d88d26d5e284"
+      "original_sha256": "d7c1a316d8063ff214ca09e7601a47a40ca58522488b0f3f0a63d88d26d5e284",
+      "expected_prediction": {
+        "mask_sha256": "f4c1c3fd119faaf2bd93debb8fb1791b97352d088da8d2db0efdefbd3567e9ab",
+        "boxes_xyxy": [
+          [
+            80.93501281738281,
+            268.6284484863281,
+            165.4649200439453,
+            380.1997375488281
+          ]
+        ],
+        "scores": [
+          0.98496013879776
+        ],
+        "foreground_pixels": 5756
+      }
     }
   ],
   "note": "User-selected validation examples; not a random benchmark sample.",

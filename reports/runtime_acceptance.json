@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "provider": "CPUExecutionProvider",
+  "training_imports_blocked": true,
+  "images": 3,
+  "cases": [
+    {
+      "input": "inputs/example_1.png",
+      "status": "passed",
+      "mask_sha256": "c20aeae8d3616dfc7f9bb0b4b59d9569b75d2d8c12e6740beee2bd72996ceab0"
+    },
+    {
+      "input": "inputs/example_2.png",
+      "status": "passed",
+      "mask_sha256": "489c1e7ba65e2b7806e85750a5c50947a46b796433d5d56cd8d7ee0df0620ef4"
+    },
+    {
+      "input": "inputs/example_3.png",
+      "status": "passed",
+      "mask_sha256": "f4c1c3fd119faaf2bd93debb8fb1791b97352d088da8d2db0efdefbd3567e9ab"
+    }
+  ],
+  "stdout": "{\"status\": \"completed\", \"images\": 3, \"output\": \"D:\\\\计算机视觉项目\\\\joint-defect-research\\\\outputs\\\\v2_rename_acceptance\"}"
+}

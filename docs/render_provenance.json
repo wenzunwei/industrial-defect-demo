@@ -1,0 +1,61 @@
+{
+  "source_onnx_sha256": "79721642a4dd933c7eb6c99aa309c26edc845abc0d85ab81f8bbe751963de878",
+  "cases": [
+    {
+      "sample_id": "10457",
+      "original_sha256": "e1ec0e831d83e54e37d4e079699f5a4ee664ae6cb1e2f3a7cdd3e46bb3270576",
+      "mask_sha256": "c20aeae8d3616dfc7f9bb0b4b59d9569b75d2d8c12e6740beee2bd72996ceab0",
+      "display_crop_xyxy": [
+        0,
+        244,
+        229,
+        604
+      ],
+      "asset": "assets/result_a.png"
+    },
+    {
+      "sample_id": "11258",
+      "original_sha256": "245bd05d2bd99a03d72df2d65dae34bd3358420dddd5447f00915d083adafd3c",
+      "mask_sha256": "489c1e7ba65e2b7806e85750a5c50947a46b796433d5d56cd8d7ee0df0620ef4",
+      "display_crop_xyxy": [
+        0,
+        144,
+        237,
+        504
+      ],
+      "asset": "assets/result_b.png"
+    },
+    {
+      "sample_id": "10401",
+      "original_sha256": "d7c1a316d8063ff214ca09e7601a47a40ca58522488b0f3f0a63d88d26d5e284",
+      "mask_sha256": "f4c1c3fd119faaf2bd93debb8fb1791b97352d088da8d2db0efdefbd3567e9ab",
+      "display_crop_xyxy": [
+        0,
+        145,
+        232,
+        505
+      ],
+      "asset": "assets/result_c.png"
+    }
+  ],
+  "loss_display": {
+    "method": "EMA",
+    "alpha": 0.35,
+    "epochs": 21
+  },
+  "learning_rate_display": "Original epoch-end recorded values, no smoothing",
+  "curve_values": "../experiments/m1/display_curves.csv",
+  "model_predictions_modified": false,
+  "asset_sha256": {
+    "assets/learning_rate.png": "9fa44c47af89297bc081348ad8b2ef248977782c39a67b775e8ce79e651e546c",
+    "assets/learning_rate.svg": "1ca8ca8318a4003d770ab52c6829f875e2d5dc5bf220d52f2829e9f9f3cfe466",
+    "assets/result_a.png": "e2500b1d218ed388c1a64c016820d3b3e41c394b94640589108255ff459621da",
+    "assets/result_b.png": "c51160f8a1515e198ef18ddb8b1641750a96051362211070b0ff05a8aaf703cc",
+    "assets/result_c.png": "8675e97c903f88effb81ce15dd877220ca9e937cd1e61e5c9a4f642bb66eea22",
+    "assets/training_loss.png": "bbb52a1294aec6d4cc6e519934cd297c4913b12ffacf6d7a003d8372e3804308",
+    "assets/training_loss.svg": "739d09e5f173cf58cb243d831074bb5726d7357cceb159beeda9d698233826e1"
+  },
+  "source_history_json_sha256": "26ca70d462e2be8e19bb9d0bf8a9e8b8f1f92d85b5e3f6740d84d3324be9eb27",
+  "history_sha256": "d9bc0abe423da1fe1d45ebcbdb3fcff063928510b585682b56d1633aa18cc2ed",
+  "history_file": "../experiments/m1/history.csv"
+}

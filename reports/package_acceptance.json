@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "date": "2026-11-05",
+  "unit_tests": 13,
+  "raw_input_images": 3,
+  "onnx_weights": 1,
+  "onnx_sha256": "79721642a4dd933c7eb6c99aa309c26edc845abc0d85ab81f8bbe751963de878",
+  "runtime": "reports/runtime_acceptance.json",
+  "reorganized_model_consistency": {
+    "cases": 7,
+    "multiple_outputs": 1,
+    "empty_outputs": 2
+  },
+  "presentation_regeneration": "All five PNGs match approved preview byte-for-byte",
+  "training_source_sha256": {
+    "jointcv/__init__.py": "0eecac536ad5c01ba3d8f9dd6ed793aa0e417bccd48e1e5d2ee27e8f8e3d732f",
+    "jointcv/commands.py": "0cf1b9d620d02ddabda67e917eed9fa269d1ec6ba8b9418fc0a2eb2f7573a73b",
+    "jointcv/common.py": "2939911fbe5392f8e2a4d52cd2342321e2313aaf8fb1eb87f5fe18cfe49684df",
+    "jointcv/data.py": "80645a595f576e4a1ac447adf60adec4090c5156c1ed31fd69178f35c21f0800",
+    "jointcv/metrics.py": "77b7cc6476c43d369fd9f8da728642844a77fa20263b5e94fb67e5949a218043",
+    "jointcv/model.py": "6eae77679aff5f1e84982e1d9304106789b7ccf3fc568c7834249bd75758abd9",
+    "jointcv/preparation.py": "0a3062a0947759ffa067ab01ab8818c83ba668bb26e753d9b133ccb8bb44a538",
+    "jointcv/preparation_io.py": "e527d8c516f878ebd9b563bf38398f6ce782462bc92214c3ecfb0469a41a7cc8",
+    "jointcv/training.py": "a5154d2f5d6d472465e606ead4763f7196794df09446fef01f1ba260dd9a07b9"
+  },
+  "published": false
+}

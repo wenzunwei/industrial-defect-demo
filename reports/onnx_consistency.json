@@ -1,0 +1,340 @@
+{
+  "status": "passed",
+  "provider": "CPUExecutionProvider",
+  "source_sha256": "7bbb828206c9dc4fcc42d204e1500c6edac84e6384274f1062dc6cc6be4f9684",
+  "onnx_sha256": "79721642a4dd933c7eb6c99aa309c26edc845abc0d85ab81f8bbe751963de878",
+  "cases": [
+    {
+      "id": "10457",
+      "purpose": "validation",
+      "shape_hw": [
+        637,
+        229
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 1.1920928955078125e-06,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "11258",
+      "purpose": "validation",
+      "shape_hw": [
+        633,
+        237
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 3.0517578125e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10401",
+      "purpose": "validation",
+      "shape_hw": [
+        645,
+        232
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 0.0001068115234375,
+      "score_max_abs_error": 1.1920928955078125e-07,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "11178",
+      "purpose": "validation",
+      "shape_hw": [
+        639,
+        233
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 3.0517578125e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "12315",
+      "purpose": "validation",
+      "shape_hw": [
+        631,
+        229
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 4.57763671875e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "11002",
+      "purpose": "validation",
+      "shape_hw": [
+        636,
+        227
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 1.52587890625e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10281",
+      "purpose": "validation",
+      "shape_hw": [
+        618,
+        231
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 3.0517578125e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "11711",
+      "purpose": "validation",
+      "shape_hw": [
+        644,
+        235
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 3.0517578125e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "11447",
+      "purpose": "validation",
+      "shape_hw": [
+        633,
+        234
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 6.103515625e-05,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10010",
+      "purpose": "validation",
+      "shape_hw": [
+        635,
+        229
+      ],
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10017",
+      "purpose": "validation",
+      "shape_hw": [
+        645,
+        231
+      ],
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10045",
+      "purpose": "validation",
+      "shape_hw": [
+        638,
+        211
+      ],
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10791",
+      "purpose": "validation",
+      "shape_hw": [
+        638,
+        231
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 3.814697265625e-05,
+      "score_max_abs_error": 7.152557373046875e-06,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10057",
+      "purpose": "validation",
+      "shape_hw": [
+        640,
+        230
+      ],
+      "detections": 2,
+      "box_max_abs_error_px": 3.0517578125e-05,
+      "score_max_abs_error": 6.258487701416016e-07,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "10306",
+      "purpose": "validation",
+      "shape_hw": [
+        624,
+        231
+      ],
+      "detections": 2,
+      "box_max_abs_error_px": 6.103515625e-05,
+      "score_max_abs_error": 1.537799835205078e-05,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "landscape_probe",
+      "purpose": "geometry_only",
+      "shape_hw": [
+        232,
+        645
+      ],
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "square_probe",
+      "purpose": "geometry_only",
+      "shape_hw": [
+        512,
+        512
+      ],
+      "detections": 1,
+      "box_max_abs_error_px": 0.0001678466796875,
+      "score_max_abs_error": 1.1920928955078125e-07,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    },
+    {
+      "id": "black_probe",
+      "purpose": "geometry_only",
+      "shape_hw": [
+        480,
+        192
+      ],
+      "detections": 0,
+      "box_max_abs_error_px": 0.0,
+      "score_max_abs_error": 0.0,
+      "mask_pixel_agreement": 1.0,
+      "mask_binary_iou": 1.0,
+      "different_mask_pixels": 0,
+      "status": "passed"
+    }
+  ],
+  "case_count": 18,
+  "empty_output_cases": 5,
+  "multi_detection_cases": 2,
+  "min_mask_iou": 1.0,
+  "max_box_error_px": 0.0001678466796875,
+  "operators_including_subgraphs": [
+    "Add",
+    "And",
+    "Cast",
+    "Ceil",
+    "Clip",
+    "Concat",
+    "Constant",
+    "ConstantOfShape",
+    "Conv",
+    "ConvTranspose",
+    "Div",
+    "Equal",
+    "Exp",
+    "Expand",
+    "Flatten",
+    "Floor",
+    "Gather",
+    "Gemm",
+    "Greater",
+    "GreaterOrEqual",
+    "Identity",
+    "If",
+    "Log",
+    "Loop",
+    "Max",
+    "MaxPool",
+    "Min",
+    "Mul",
+    "NonMaxSuppression",
+    "NonZero",
+    "Pad",
+    "Range",
+    "ReduceMax",
+    "ReduceMin",
+    "ReduceProd",
+    "Relu",
+    "Reshape",
+    "Resize",
+    "RoiAlign",
+    "ScatterElements",
+    "Shape",
+    "Sigmoid",
+    "Slice",
+    "Softmax",
+    "Split",
+    "Sqrt",
+    "Squeeze",
+    "Sub",
+    "TopK",
+    "Transpose",
+    "Unsqueeze",
+    "Where"
+  ],
+  "seconds": 68.93700000003446,
+  "test_evaluated": false,
+  "note": "Selected val cases and geometry probes establish export consistency only, not full-dataset model performance."
+}
