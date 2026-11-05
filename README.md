@@ -15,11 +15,12 @@
 
 ![原图、目标检测与缺陷分割](docs/assets/result_c.png)
 
-## 损失与学习率
+## 训练过程
 
-| 损失 | 学习率 |
-| --- | --- |
-| ![总损失](docs/assets/training_loss.png) | ![学习率](docs/assets/learning_rate.png) |
+<p>
+  <img src="docs/assets/training_loss.png" width="49%" alt="损失">
+  <img src="docs/assets/learning_rate.png" width="49%" alt="学习率">
+</p>
 
 ## 快速运行
 
@@ -29,10 +30,6 @@
 pip install -r requirements.txt
 python infer.py --input examples/inputs --output outputs/demo
 ```
-
-默认使用 CPU。推理端仅依赖 NumPy、OpenCV 和 ONNX Runtime；单个 ONNX 模型同时完成检测与分割。
-
-每张图片保存检测框与分数 JSON、二值掩膜 PNG、三联预览图，批量结果汇总到 `summary.json`。输出目录需使用新名称。
 
 ## 工程结构
 
